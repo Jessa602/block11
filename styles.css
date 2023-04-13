@@ -1,0 +1,137 @@
+body {
+  background-color: rgb(110, 252, 171);
+}
+
+#back-wall {
+  background-color: #4e033a;
+  width: 100%;
+  height: 60%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+#offwhite-character {
+  width: 300px;
+  height: 550px;
+  background-color: rgb(211, 211, 252);
+  position: absolute;
+  top: 20%;
+  left: 17.5%;
+}
+
+#white-hat {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 120px 140px 180px;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: rgb(10, 115, 110);
+  border-left-color: transparent;
+  position: absolute;
+  top: -140px;
+  left: 0;
+}
+
+#black-mask {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(206, 9, 127);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+ }
+
+#gray-instrument {
+  width: 15%;
+  height: 40%;
+  background-color: rgb(69, 104, 96);
+  position: absolute;
+  top: 50px;
+  left: 125px;
+  z-index: 1;
+}
+
+.black-dot {
+  width: 10px;
+  height: 10px;
+  background-color: rgb(219, 115, 66);
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  margin-top: 65%;
+}
+
+.triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-bottom: 20px solid #3d022a;
+}
+
+.triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 20px solid #3d022a;
+}
+
+.trapezoid {
+	border-bottom: 10px solid #3d022a;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	height: 0;
+	width: 18px;
+}
+
+#tan-table {
+  width: 450px;
+  height: 140px;
+  background-color: #3c082a;
+  position: absolute;
+  top: 275px;
+  left: 15px;
+  z-index: 1;
+}
+
+#black-character {
+  width: 300px;
+  height: 500px;
+  background-color: rgb(86, 77, 160);
+  position: absolute;
+  top: 30%;
+  left: 59%;
+}
+
+#black-hat {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 150px 0 0 300px;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: rgb(45, 90, 52);
+  position: absolute;
+  top: -150px;
+  left: 0;
+}
+
+#gray-mask {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(167, 117, 162);
+  position: absolute;
+  top: -10px;
+  left: 70px;
+}
